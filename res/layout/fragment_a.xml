@@ -1,0 +1,77 @@
+<RelativeLayout xmlns:bootstrapbutton="http://schemas.android.com/apk/res-auto"
+    xmlns:fontawesometext="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FragmentA" >
+
+<TableLayout
+        android:id="@+id/tableLayout1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp" >
+
+    <TableRow>
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="wrap_content"
+            android:layout_height="100dp"
+            android:contentDescription="@+id/imageView1"
+            android:src="@drawable/singleuser" />
+    </TableRow>
+
+    <TableRow>
+
+        <com.beardedhen.androidbootstrap.BootstrapEditText
+            android:id="@+id/t1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_marginTop="30dp"
+            android:gravity="center"
+            android:hint="@string/search"
+            android:minEms="13"
+            android:textSize="18sp"
+            fontawesometext:be_roundedCorners="true" />
+    </TableRow>
+
+    <RadioGroup
+        android:id="@+id/radioGroup1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="10dp" >
+
+        <RadioButton
+            android:id="@+id/a0"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:text="@string/name"
+            android:textSize="18sp" />
+
+        <RadioButton
+            android:id="@+id/a1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:text="@string/roll_number"
+            android:textSize="18sp" />
+    </RadioGroup>
+
+    <TableRow>
+
+        <com.beardedhen.androidbootstrap.BootstrapButton
+            android:id="@+id/bootstrapButton1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="Search"
+            android:textSize="18sp"
+            bootstrapbutton:bb_roundedCorners="true"
+            bootstrapbutton:bb_type="info" />
+    </TableRow>
+</TableLayout>
+</RelativeLayout>

@@ -1,0 +1,297 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:bootstrapbutton="http://schemas.android.com/apk/res-auto"
+    xmlns:fontawesometext="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".IndividualDetailActivity" >
+
+    <EditText
+        android:id="@+id/dummy"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:inputType="none" />
+
+    <TableLayout
+        android:id="@+id/tl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="5dp" >
+
+        <TableRow
+            android:id="@+id/tableRow1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp" >
+
+            <TextView
+                android:id="@+id/hide1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="0dp"
+                android:layout_weight="1"
+                android:text="Name"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <com.beardedhen.androidbootstrap.BootstrapEditText
+                android:id="@+id/ResultName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="4dp"
+                android:layout_marginTop="0dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="Name"
+                fontawesometext:be_roundedCorners="true" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="0dp"
+                android:text="Roll No"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <com.beardedhen.androidbootstrap.BootstrapEditText
+                android:id="@+id/ResultID"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="4dp"
+                android:layout_marginTop="0dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="Roll No"
+                fontawesometext:be_roundedCorners="true" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="0dp"
+                android:text="Section"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <com.beardedhen.androidbootstrap.BootstrapEditText
+                android:id="@+id/ResultClassID"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="4dp"
+                android:layout_marginTop="0dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="Section"
+                fontawesometext:be_roundedCorners="true" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="0dp"
+                android:text="Mid Sem"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <com.beardedhen.androidbootstrap.BootstrapEditText
+                android:id="@+id/ResultMidSem"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="4dp"
+                android:layout_marginTop="0dp"
+                android:layout_weight="1"
+                android:inputType = "number"
+                android:gravity="center"
+                android:text="Mid Sem"
+                fontawesometext:be_roundedCorners="true" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="0dp"
+                android:text="End Sem"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <com.beardedhen.androidbootstrap.BootstrapEditText
+                android:id="@+id/ResultEndSem"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="4dp"
+                android:layout_marginTop="0dp"
+                android:layout_weight="1"
+                android:inputType = "number"
+                android:gravity="center"
+                android:text="End Sem"
+                fontawesometext:be_roundedCorners="true" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="0dp"
+                android:text="Assignment"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <com.beardedhen.androidbootstrap.BootstrapEditText
+                android:id="@+id/ResultAssignment"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="4dp"
+                android:layout_marginTop="0dp"
+                android:layout_weight="1"
+                android:inputType = "number"
+                android:gravity="center"
+                android:text="Assignment"
+                fontawesometext:be_roundedCorners="true" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="0dp"
+                android:text="Project"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <com.beardedhen.androidbootstrap.BootstrapEditText
+                android:id="@+id/ResultProject"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="4dp"
+                android:layout_marginTop="0dp"
+                android:layout_weight="1"
+                android:inputType = "number"
+                android:gravity="center"
+                android:text="Project"
+                fontawesometext:be_roundedCorners="true" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="0dp"
+                android:text="Attendance"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <com.beardedhen.androidbootstrap.BootstrapEditText
+                android:id="@+id/ResultAttendance"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="4dp"
+                android:layout_marginTop="0dp"
+                android:layout_weight="1"
+                android:inputType = "number"
+                android:gravity="center"
+                android:text="Attendance"
+                fontawesometext:be_roundedCorners="true" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="0dp"
+                android:text="Behaviour"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <com.beardedhen.androidbootstrap.BootstrapEditText
+                android:id="@+id/ResultBehaviour"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="4dp"
+                android:layout_marginTop="0dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="Behaviour"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                fontawesometext:be_roundedCorners="true" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="0dp"
+                android:text="Sports"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <com.beardedhen.androidbootstrap.BootstrapEditText
+                android:id="@+id/ResultSports"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="4dp"
+                android:layout_marginTop="0dp"
+                android:layout_weight="1"
+                android:inputType = "number"
+                android:gravity="center"
+                android:text="Sports"
+                fontawesometext:be_roundedCorners="true" />
+        </TableRow>
+    </TableLayout>
+
+    <com.beardedhen.androidbootstrap.BootstrapButton
+        android:id="@+id/save"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tl"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:enabled="false"
+        android:onClick="saveStuff"
+        android:text="Save"
+        fontawesometext:bb_roundedCorners="true"
+        fontawesometext:bb_type="info" >
+    </com.beardedhen.androidbootstrap.BootstrapButton>
+
+</RelativeLayout>

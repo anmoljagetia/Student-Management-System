@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Student Manager</string>
+    <string name="action_settings">Change Password</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="password">Password</string>
+    <string name="username">Username</string>
+    <string name="title_activity_second">SecondActivity</string>
+    <string name="title_section1">Section 1</string>
+    <string name="title_section2">Section 2</string>
+    <string name="title_section3">Section 3</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_fullscreen">FullscreenActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="course">Course</string>
+    <string name="title_activity_individual">IndividualActivity</string>
+    <string name="classGroup">Class</string>
+    <string name="search">Search</string>
+    <string name="roll_number">Roll Number</string>
+    <string name="name">Name</string>
+    <string name="title_activity_individual_detail">IndividualDetailActivity</string>
+    <string name="title_activity_group">GroupActivity</string>
+    <string name="edit_title">edit</string>
+    <string name="title_activity_group_detail">GroupDetailActivity</string>
+    <string name="title_activity_course_detail">CourseDetailActivity</string>
+    <string name="title_activity_change_password">ChangePassword</string>
+    <string name="title_activity_add_student">AddStudent</string>
+    <string name="add_student">Add Student</string>
+    <string name="title_activity_add_new_student">AddNewStudent</string>
+
+</resources>

@@ -1,0 +1,73 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:bootstrapbutton="http://schemas.android.com/apk/res-auto"
+    xmlns:fontawesometext="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    tools:context=".MainActivity" >
+
+    <TableLayout
+        android:id="@+id/tableLayout1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp" >
+
+    <TableRow>
+            
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/student1"
+        android:contentDescription="@+id/imageView1" />
+            
+    </TableRow>
+
+        <TableRow>
+
+            <com.beardedhen.androidbootstrap.BootstrapEditText
+                android:id="@+id/txtOne"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:layout_marginTop="30dp"
+                android:gravity="center"
+                android:hint="@string/username"
+                android:minEms="13"
+                android:textSize="18sp"
+                fontawesometext:be_roundedCorners="true" />
+        </TableRow>
+
+        <TableRow>
+
+            <com.beardedhen.androidbootstrap.BootstrapEditText
+                android:id="@+id/txtTwo"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_margin="10dp"
+                android:layout_marginTop="30dp"
+                android:gravity="center"
+                android:hint="@string/password"
+                android:inputType="textPassword"
+                android:textSize="18sp"
+                fontawesometext:be_roundedCorners="true" />
+        </TableRow>
+
+        <TableRow>
+            
+            <com.beardedhen.androidbootstrap.BootstrapButton
+                android:id="@+id/login"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text="Login"
+                android:textSize="18sp"
+                android:onClick="sendMessage"
+                bootstrapbutton:bb_icon_right="fa-android"
+                bootstrapbutton:bb_roundedCorners="true"
+                bootstrapbutton:bb_type="info" />
+        </TableRow>
+    </TableLayout>
+
+</RelativeLayout>

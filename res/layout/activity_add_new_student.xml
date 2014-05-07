@@ -1,0 +1,94 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:bootstrapbutton="http://schemas.android.com/apk/res-auto"
+    xmlns:fontawesometext="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    tools:context=".AddNewStudent" >
+
+    <TableLayout
+        android:id="@+id/nstl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="5dp" >
+
+        <TableRow
+            android:id="@+id/tR1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp" >
+
+            <com.beardedhen.androidbootstrap.BootstrapEditText
+                android:id="@+id/aName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:layout_marginTop="30dp"
+                android:gravity="center"
+                android:hint="Name"
+                android:minEms="13"
+                android:textSize="18sp"
+                fontawesometext:be_roundedCorners="true" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tR2s"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp" >
+
+            <com.beardedhen.androidbootstrap.BootstrapEditText
+                android:id="@+id/aRollNo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:layout_marginTop="30dp"
+                android:gravity="center"
+                android:hint="Roll Number"
+                android:minEms="13"
+                android:textSize="18sp"
+                fontawesometext:be_roundedCorners="true" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tR3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp" >
+
+            <com.beardedhen.androidbootstrap.BootstrapEditText
+                android:id="@+id/aClassId"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:layout_marginTop="30dp"
+                android:gravity="center"
+                android:hint="Class ID"
+                android:minEms="13"
+                android:textSize="18sp"
+                fontawesometext:be_roundedCorners="true" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tR4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp" >
+
+            <com.beardedhen.androidbootstrap.BootstrapButton
+                android:id="@+id/change"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:onClick="change"
+                android:text="Add New Student"
+                android:textSize="18sp"
+                bootstrapbutton:bb_roundedCorners="true"
+                bootstrapbutton:bb_type="info" />
+        </TableRow>
+    </TableLayout>
+
+</RelativeLayout>

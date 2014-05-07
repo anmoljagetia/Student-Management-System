@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.sms"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="19" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/subscribe"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.example.sms.MainActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Holo.Light.NoActionBar" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.sms.SecondActivity"
+            android:label="@string/title_activity_second"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.example.sms.IndividualActivity"
+            android:label=""
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.example.sms.IndividualDetailActivity"
+            android:label="Details"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.example.sms.GroupActivity"
+            android:label=""
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.example.sms.GroupDetailActivity"
+            android:label="Details"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.example.sms.CourseDetailActivity"
+            android:label=""
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.example.sms.ChangePassword"
+            android:label="Change Password"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.example.sms.AddStudent"
+            android:label="Add New Student"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.example.sms.AddNewStudent"
+            android:label="Add New Student"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.example.sms.Prefs"
+            android:label="Preferences"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.PREFS" />                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

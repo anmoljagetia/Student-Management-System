@@ -1,0 +1,85 @@
+<RelativeLayout xmlns:bootstrapbutton="http://schemas.android.com/apk/res-auto"
+    xmlns:fontawesometext="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FragmentB" >
+
+    <!-- TODO: Update blank fragment layout -->
+ 
+    <TableLayout
+        android:id="@+id/tableLayout2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp" >
+        
+        <TableRow>
+
+        	<ImageView
+        	    android:id="@+id/imageView2"
+        	    android:layout_width="wrap_content"
+        	    android:src="@drawable/multiuser"
+        	    android:layout_height="100dp" />
+
+        </TableRow>
+        
+
+
+        <TableRow>
+
+            <com.beardedhen.androidbootstrap.BootstrapEditText
+                android:id="@+id/t2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:layout_marginTop="30dp"
+                android:gravity="center"
+                android:hint="Search"
+                android:minEms="13"
+                android:textSize="18sp"
+                fontawesometext:be_roundedCorners="true" />
+        </TableRow>
+
+        <TableRow>
+            
+        <RadioGroup
+            android:id="@+id/radioGroup2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp" >
+
+            <RadioButton
+                android:id="@+id/b0"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="false"
+                android:textSize="18sp"
+                android:text="@string/course" />
+
+            <RadioButton
+                android:id="@+id/b1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:text="@string/classGroup" />
+        </RadioGroup>
+        
+        </TableRow>
+
+        <TableRow>  
+            <com.beardedhen.androidbootstrap.BootstrapButton
+                android:id="@+id/bootstrapButton2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text="Search"
+                android:textSize="18sp"
+                bootstrapbutton:bb_roundedCorners="true"
+                bootstrapbutton:bb_type="info" />
+        </TableRow>
+        
+    </TableLayout>
+
+</RelativeLayout>
